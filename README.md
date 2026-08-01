@@ -9,6 +9,12 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![OpenAI SDK](https://img.shields.io/badge/OpenAI_SDK-412991?style=flat&logo=openai&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+
+**[Live demo](https://review-agent-eta.vercel.app)**
+
+<img src="docs/screenshots/reviews.png" alt="Review Agent merge request review page" width="300"> <img src="docs/screenshots/settings.png" alt="Review Agent settings page" width="300">
 
 Review Agent reads a GitLab merge request's changed files and gives each one a real code review — accept or reject, a score, and specific issues — posted as an inline comment on the exact line that matters.
 
