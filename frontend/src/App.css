@@ -1,0 +1,253 @@
+.page-header {
+  margin-bottom: 28px;
+}
+
+.page-header h1 {
+  font-size: 22px;
+  margin: 0 0 8px;
+  color: #1c2128;
+  font-weight: 700;
+}
+
+.page-header p {
+  margin: 0;
+  color: #66707f;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #dde2e8;
+  border-radius: 8px;
+  padding: 24px 26px;
+}
+
+.form-field {
+  margin-bottom: 18px;
+}
+
+.form-field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #444d5a;
+  margin-bottom: 6px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.form-field .hint {
+  font-size: 11.5px;
+  color: #9aa4b8;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  margin-left: 6px;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid #d5dbe2;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'JetBrains Mono', monospace;
+  outline: none;
+  background: #fbfcfd;
+  color: #1c2128;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  border-color: #3fb950;
+  box-shadow: 0 0 0 3px rgba(63, 185, 80, 0.14);
+  background: #fff;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.btn-primary {
+  background: #1f2430;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #2a3040;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: #fff;
+  color: #444d5a;
+  border: 1px solid #d5dbe2;
+  border-radius: 6px;
+  padding: 7px 13px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  border-color: #3fb950;
+  color: #2a8e3d;
+}
+
+.btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.form-error {
+  color: #cf222e;
+  background: #fff1f0;
+  border: 1px solid #ffc9c9;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.form-success {
+  color: #1a7f37;
+  background: #ecfdf0;
+  border: 1px solid #b4e6bf;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.connect-panel {
+  text-align: center;
+  padding: 48px 26px;
+}
+
+.connect-panel h2 {
+  font-size: 17px;
+  margin: 0 0 10px;
+  color: #1c2128;
+}
+
+.connect-panel p {
+  color: #66707f;
+  font-size: 13.5px;
+  margin: 0 0 20px;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 44px 24px;
+  color: #9aa4b8;
+  font-size: 13.5px;
+}
+
+.reviews-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.review-card {
+  background: #fff;
+  border: 1px solid #dde2e8;
+  border-radius: 8px;
+  padding: 18px 20px;
+}
+
+.review-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 6px;
+}
+
+.review-file {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #1c2128;
+}
+
+.review-meta {
+  font-size: 12px;
+  color: #9aa4b8;
+  margin-top: 3px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.tag {
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.tag-accept {
+  background: #ecfdf0;
+  color: #1a7f37;
+}
+
+.tag-reject {
+  background: #fff1f0;
+  color: #cf222e;
+}
+
+.tag-posted {
+  background: #e6f0ff;
+  color: #1a56b0;
+}
+
+.tag-failed {
+  background: #fff1f0;
+  color: #cf222e;
+}
+
+.review-score {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: #66707f;
+  margin-top: 4px;
+}
+
+.review-body {
+  background: #f7f8f7;
+  border: 1px solid #dde2e8;
+  border-radius: 6px;
+  padding: 14px 16px;
+  font-size: 13px;
+  color: #1c2128;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  margin-top: 12px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.review-actions {
+  margin-top: 12px;
+}
